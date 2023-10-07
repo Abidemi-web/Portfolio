@@ -1,0 +1,151 @@
+.contact {
+  background-image: url(../images/about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 5px 2px rgba(27,28,28,0.75);
+  
+  
+  
+
+}
+.contacts {
+  margin-right: 100px;
+}
+.contact-container {
+  
+    border-radius: 10px;
+    padding: 10px;
+    width: 150%;
+    border: aqua solid 2px;
+    display: inline-block;
+    color: #030202;
+}
+.contact-container h1 {
+  color: #030202;
+  font-weight: 900;
+  mix-blend-mode: screen;
+  background-color: white;
+  height: 70px;
+  padding-top: 10px;
+  text-align: center;
+  
+}
+.contacts p {
+  font-size: 20px;
+  color:#3deef1;
+  font-weight: 700;
+  margin-left: 90px;
+  text-align: center;
+}
+
+.forms {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputE {
+  
+  width: 70%;
+}
+.inputE input {
+  display: block;
+  margin: 30px;
+  width: 50%;
+  height: 50px;
+  margin-left: 25%;
+  background: none;
+  border: #3deef1 solid;
+  padding-left: 10px;
+  }
+  .inputE input:focus {
+    outline: none;
+  }
+.inputE .message {
+  height: 50vh;
+}
+.inputE button {
+  margin-left: 25%;
+  width: 19%;
+  border: #3deef1 solid;
+  color: #3deef1;
+}
+.inputE button:hover {
+  background-color: #3deef1;
+  color: white;
+}
+
+::placeholder {
+  color: #3deef1;
+}
+.forms .imgss  h3{
+  background-image: url(../images/8.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60%;
+  height: 60vh;
+  mix-blend-mode: screen;
+  text-align: center;
+  padding: 70px;
+  box-shadow: -3px -1px 20px 6px rgba(38,213,237,0.75);
+}
+.forms h3 {
+  /* width: 20%;
+  position: absolute;
+  top: 135%;
+  left: 70%; */
+  font-weight: bolder;
+  text-shadow: 2px 2px 3px #3deef1;
+  color: black;
+  mix-blend-mode: screen;
+
+  
+  
+}
+.boxes button {
+  width: 60%;
+  height: 50px;
+  background: none;
+  border-radius: 5px;
+  color: #030202;
+  font-weight: bold;
+  border: #030202 3px solid;
+}
+.boxes button:hover{
+  transform: scale(0.8);
+}
+@media (max-width: 768px) {
+
+  .contact-container {
+    width: 100%;
+    margin-left: 60px;
+  }
+
+  .forms {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .inputE input {
+    width: 90%;
+    margin-left: 10%;
+  }
+  .inputE .message{
+    height: 20vh;
+  }
+  .inputE button {
+    width: 50%;
+    height: 50px;
+    margin-left: 10%;
+  }
+  .forms .imgss {
+    margin-left: 60%;
+    margin-top: 40px;
+    width: 150%;
+  }
+}

@@ -1,0 +1,145 @@
+.aboutme {
+  background-image: url(../images/8.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+  
+
+}
+.aboutmes {
+  margin-right: 80px;
+}
+.about-container {
+  
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    border: aqua solid 2px;
+    display: inline-block;
+    color: #030202;
+}
+.about-container h1 {
+  color: #030202;
+  font-weight: 900;
+  mix-blend-mode: screen;
+  background-color: white;
+  height: 70px;
+  padding-top: 10px;
+  text-align: center;
+  
+}
+.aboutmes p {
+  font-size: 20px;
+  color:#3deef1;
+  font-weight: 700;
+  margin-left: 10px;
+  text-align: center;
+}
+.bidex {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.bidex h3 {
+  color: #3deef1;
+  font-weight: bolder;
+}
+.bidexx {
+  border: #3deef1 solid 3px;
+  height: 40vh;
+  width: 40%;
+  margin-left: 30%;
+}
+ 
+
+.bidexX {
+  margin-top: 70px;
+}
+
+.bidexX p {
+  color: #3deef1;
+}
+
+.list-container h3 {
+text-align: center;
+  margin-top: 25%;
+  color:#3deef1;
+}
+.listt {
+  margin-left: 50px;
+  color:#3deef1;
+}
+.butn button {
+  border: aqua solid; 
+  color: aqua; 
+  width: 15%; 
+  height: 60px; 
+  font-size: 22px; 
+  margin-left: 40%;
+   margin-top: 20px;
+   background: none;
+}
+button:hover {
+  background-color: #3deef1;
+  color: white;
+}
+
+@media (max-width: 768px) {
+
+  .about-container {
+    width: 100%;
+    margin-left: 50px;
+  }
+  .aboutmes p {
+    font-size: 15px;
+    margin-left: 26%;
+  }
+
+  .bidexx {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .bidexX {
+    margin-top: 100px;
+  }
+  .bidexX p {
+    margin-top: 20px;
+  }
+  .list-container h3 {
+    margin-top: 90%;
+  }
+  .butn button {
+    width: 170px;
+    margin-left: 28%;
+  }
+
+
+  .forms {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .inputE input {
+    width: 90%;
+    margin-left: 10%;
+  }
+  .inputE .message{
+    height: 20vh;
+  }
+  .inputE button {
+    width: 50%;
+    height: 50px;
+    margin-left: 10%;
+  }
+  .forms .imgss {
+    margin-left: 60%;
+    margin-top: 40px;
+    width: 150%;
+  }
+}
